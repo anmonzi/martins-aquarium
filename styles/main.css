@@ -1,3 +1,31 @@
-#fishtank {}
-fish {}
-.fish_name {}
+@import "./fish.css";
+@import "./quotes.css";
+@import "./locations.css";
+@import "./tips.css";
+
+body {
+    background-image: url("https://cdn.pixabay.com/photo/2016/11/29/05/49/water-1867636_960_720.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.mainHeader {
+    text-align: center;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.welcome {
+    max-width: 36rem;
+}
+
+.container {
+    display: flex;
+    padding: 3rem;
+}
+
+.flex-container-left {
+    flex: 3;
+    margin-right: 3rem;
+}

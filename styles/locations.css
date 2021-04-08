@@ -1,0 +1,21 @@
+.harvestLocations {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: rgba(255,255,255,0.6);
+    box-shadow: 0px 0px 10px rgb(38, 119, 124);
+    padding: 1rem;
+}
+
+.header-locations {
+    text-align: center;
+}
+
+.location__img {
+    max-width: 18rem;
+}
+
+.location {
+    flex-basis: 16%;
+    margin-bottom: 3rem;
+}

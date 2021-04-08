@@ -1,0 +1,13 @@
+.tips {
+    background-color: rgba(255,255,255,0.6);
+    box-shadow: 0px 0px 10px rgb(38, 119, 124);
+    padding: 0 1rem;
+    position: sticky;
+    top: 0;
+    max-height: 30rem;
+    margin-top: 66px;
+}
+
+.header-tips {
+    text-align: center;
+}
