@@ -9,13 +9,19 @@
 
 .header-locations {
     text-align: center;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+.location__name {
+    text-align: center;
 }
 
 .location__img {
     max-width: 18rem;
+    border: 6px white solid;
 }
 
 .location {
     flex-basis: 16%;
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
 }

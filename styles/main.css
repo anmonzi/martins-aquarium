@@ -16,6 +16,10 @@ body {
     align-items: center;
 }
 
+.welcomeHeader {
+    font-family: 'Shadows Into Light', cursive;
+}
+
 .welcome {
     max-width: 36rem;
 }
