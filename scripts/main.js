@@ -1,5 +1,5 @@
 // Import the FishList function from the correct module
-import {FishList} from './FishList';
+import {FishList} from '../FishList.js'
 
 /*
     What is the CSS selector for the element where you
@@ -8,7 +8,7 @@ import {FishList} from './FishList';
     Use . for elements with a "class" attribute
     Use # for elements with an "id" attribute
  */
-const parentHTMLElement = document.querySelector("section")
+const parentHTMLElement = document.querySelector(".currentFish")
 
 
-parentHTMLElement.innerHTML = FishList()
+parentHTMLElement.innerHTML = FishList();
