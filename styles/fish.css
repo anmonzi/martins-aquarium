@@ -19,6 +19,7 @@
 
 .fish__name {
     text-align: center;
+    font-style: bold;
 }
 
 .fish__img {

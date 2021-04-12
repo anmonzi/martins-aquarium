@@ -14,11 +14,11 @@ export const FishList = () => {
         // Why is there a backtick used for this string?
         htmlString += `<section class="fish">
             <div class="fish__name">${fish.name}</div>
-            <div><img  class="fish__image" src="${fish.image}" /></div>
+            <div><img  class="fish__img" src="${fish.image}" /></div>
             <div class="fish__species">${fish.species}</div>
             <div class="fish__length">${fish.length}</div>
-            <div class="fish__location">${fish.location}</div>
-            <div class="fish__diet">${fish.food}</div>
+            <div class="fish__locations">${fish.locations}</div>
+            <div class="fish__food">${fish.food}</div>
         </section>
 `
     }
