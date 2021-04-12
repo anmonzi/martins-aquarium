@@ -31,7 +31,15 @@ const fishDatabase = {
             length: "8 inches",
             locations: "Bighorn River, Montana",
             food: "Brine shrimp and worms",
-          }
+          },
+          {
+            name: "Spongebob",
+            image: "https://blog.humanesociety.org/wp-content/uploads/2018/04/YELLOW-TANG-FISH-ISTOCK-486110113_381372-1220x813.jpg",
+            species: "Yellow Tang",
+            length: "3 inches",
+            locations: "Hawaii",
+            food: "Brine shrimp and worms",
+          },
     ]
 }
 
