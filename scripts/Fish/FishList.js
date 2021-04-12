@@ -1,5 +1,5 @@
 // Import the function that returns a copy of the fish array
-import { getFishes } from './database.js'
+import { getFishes } from '../database.js'
 
 export const FishList = () => {
     // Invoke the function that you imported from the database module
