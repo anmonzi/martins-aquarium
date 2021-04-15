@@ -1,3 +1,5 @@
+// Fish Database
+
 const fishDatabase = {
     fish: [
         {
@@ -43,6 +45,56 @@ const fishDatabase = {
     ]
 }
 
+
+
+// Tips Database
+const tipsDatabase = {
+  tips: [
+    "Feed the fish everyday.",
+    "Check the water and salinity once a week.",
+    "Keep cats away from top of tank.",
+    "Sing to the fish",
+    "Do not tap on tank glass!"
+  ]
+}
+
+// Locations Database
+const locationDatabase = {
+  location: [
+    {
+      name: "Cabo",
+      img: "https://www.loscabosguide.com/wp-content/uploads/2017/05/arch-cabo-san-lucas-1991-105-2516-6.jpg",
+      harvest: "Discus"
+    },
+    {
+      name: "Punta Cana",
+      img: "https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fblogs-images.forbes.com%2Frobinraven%2Ffiles%2F2019%2F06%2FMain-from-Eden-Roc-at-Cap-Cana-1200x787.jpg",
+      harvest: "Discus"
+    },
+    {
+      name: "Bora Bora",
+      img: "https://www.planetware.com/photos-large/SEY/best-tropical-vacations-bora-bora.jpg",
+      harvest: "Discus"
+    },
+    {
+      name: "Hawaii",
+      img: "https://www.planetware.com/photos-large/SEY/best-tropical-vacations-kauai.jpg",
+      harvest: "Discus"
+    }
+  ]
+}
+
+
+
+// Export Section
 export const getFishes = () => {
     return [...fishDatabase.fish]
 };
+
+export const getTips = () => {
+  return [...tipsDatabase.tips]
+}
+
+export const getLocations = () => {
+  return [...locationDatabase.location]
+}
