@@ -30,3 +30,8 @@ export const Tips = () => {
 const target = document.querySelector(".dynamicTips");
 
 target.innerHTML = Tips();
+
+
+// Trying to automate fish tips
+
+// Left off with creating the html to target correct location in index.html
